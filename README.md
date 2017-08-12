@@ -17,7 +17,7 @@ Note: I had to login with my docker account to build the nginx container.  Which
 	# clone the repo into a directory
 	mkdir my_dir
 	cd my_dir
-	git clone https://github.com/primusdj/docker_sample_flask_nginx.git
+	git clone https://github.com/primusdj/docker_sample_flask_nginx.git .
 
 	# in the directory with the docker-compose.yaml file run
 	docker-compose build
